@@ -1,20 +1,20 @@
 .rectangle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-  top: 0;
-  left: 0;
-  width: 100vw;   /* 100% of the viewport width */
-  height: 100vh;  /* 100% of the viewport height */
-  background: linear-gradient(to right, #00E0FF, #AD00FF);  /* Adjust the gradient stops and colors as needed */
-  /* Add any other styles as needed */
-  /* Add any other styles as needed */
-  }
-  
-  /* LoginWrapper.css */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+top: 0;
+left: 0;
+width: 100vw;   /* 100% of the viewport width */
+height: 100vh;  /* 100% of the viewport height */
+background: linear-gradient(to right, #00E0FF, #AD00FF);  /* Adjust the gradient stops and colors as needed */
+/* Add any other styles as needed */
+/* Add any other styles as needed */
+}
+
+/* LoginWrapper.css */
 .login-wrapper {
-    width: 446px;
+  width: 446px;
 height: 414px;
 
 border-radius: var(--Spacing-07, 16px);
@@ -22,18 +22,24 @@ border: var(--Border-05, 0.5px) solid var(--Line-grey-01, #D7DBE0);
 opacity: var(--Border-10, 1);
 background: #FFF;
 
-  }
+}
 
-  /* LoginForm.css */
+/* LoginForm.css */
 .login-form {
-    width: 446px;
-    height: 318px;
-    opacity: var(--Border-10, 1);
-  }
-  
-  label_Ecomerce {
-    width: 366px;
-    color: #24272D;
+
+
+
+margin-left: 0px;
+margin-right: 0px;
+  margin-top: 48px;
+margin-bottom: 48px;
+}
+
+label_Ecomerce {
+  margin-left: 32px;
+  margin-right: 48px;
+  margin-bottom: 284px;
+  color: #24272D;
 text-align: center;
 font-family: Be Vietnam Pro;
 font-size: 28px;
@@ -45,43 +51,47 @@ opacity: var(--Border-10, 1);
 
 
 
-  }
+}
 
-  label_input {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 600;    
-    
-  }
+label_input {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;    
   
-  input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-  }
-  
-  button {
-    width :382px;
-    height: 42px;
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #2980b9;
-  }
-  
-  button span {
-    margin-left: 5px; /* Adjust the margin as needed */
-  }
+}
 
-  .input-frame {
-    border: 1px solid #ccc; /* Border for the input frame */
-    border-radius: 3px;    /* Optional: Add border-radius for rounded corners */
-    padding: 8px;          /* Optional: Add padding for spacing */
-    margin-bottom: 16px;   /* Optional: Add margin for spacing */
-  }
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #4CAF50;
+  color: #fff;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+  border-radius: var(--rounded-lg, 8px);
+  background: var(--Color-Purple-400, #A588FD);
+
+  display: flex;
+  width: 382px;
+  padding: var(--Spacing-06, 12px) var(--Spacing-07, 16px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--2, 8px);
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button span {
+  margin-left: 5px; /* Adjust the margin as needed */
+}
+
