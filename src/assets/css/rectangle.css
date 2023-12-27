@@ -1,0 +1,87 @@
+.rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  top: 0;
+  left: 0;
+  width: 100vw;   /* 100% of the viewport width */
+  height: 100vh;  /* 100% of the viewport height */
+  background: linear-gradient(to right, #00E0FF, #AD00FF);  /* Adjust the gradient stops and colors as needed */
+  /* Add any other styles as needed */
+  /* Add any other styles as needed */
+  }
+  
+  /* LoginWrapper.css */
+.login-wrapper {
+    width: 446px;
+height: 414px;
+
+border-radius: var(--Spacing-07, 16px);
+border: var(--Border-05, 0.5px) solid var(--Line-grey-01, #D7DBE0);
+opacity: var(--Border-10, 1);
+background: #FFF;
+
+  }
+
+  /* LoginForm.css */
+.login-form {
+    width: 446px;
+    height: 318px;
+    opacity: var(--Border-10, 1);
+  }
+  
+  label_Ecomerce {
+    width: 366px;
+    color: #24272D;
+text-align: center;
+font-family: Be Vietnam Pro;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 34px; /* 121.429% */
+letter-spacing: -0.3px;
+opacity: var(--Border-10, 1);
+
+
+
+  }
+
+  label_input {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;    
+    
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    width :382px;
+    height: 42px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  button span {
+    margin-left: 5px; /* Adjust the margin as needed */
+  }
+
+  .input-frame {
+    border: 1px solid #ccc; /* Border for the input frame */
+    border-radius: 3px;    /* Optional: Add border-radius for rounded corners */
+    padding: 8px;          /* Optional: Add padding for spacing */
+    margin-bottom: 16px;   /* Optional: Add margin for spacing */
+  }
