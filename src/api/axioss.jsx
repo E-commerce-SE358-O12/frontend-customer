@@ -1,4 +1,4 @@
 import axios from "axios";
-export default axiosss.create({
+export default axios.create({
     baseURL: ''
 })
